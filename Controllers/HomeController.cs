@@ -7,17 +7,24 @@ namespace hospital.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly AppDbContext _context;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger , AppDbContext context)
     {
         _logger = logger;
+        _context = context;
     }
 
     public IActionResult Index()
     {
         return View();
     }
-
+    //-------------
+    public IActionResult medico()
+    {
+        return View();
+    }
+    //-------------
     public IActionResult Privacy()
     {
         return View();
@@ -28,4 +35,6 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+
+
 }

@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/hospital.csproj": {}
+    "E:\\SEM-5\\WAD\\Online_Medical_Store\\hospital.csproj": {}
   },
   "projects": {
-    "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/hospital.csproj": {
+    "E:\\SEM-5\\WAD\\Online_Medical_Store\\hospital.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/hospital.csproj",
+        "projectUniqueName": "E:\\SEM-5\\WAD\\Online_Medical_Store\\hospital.csproj",
         "projectName": "hospital",
-        "projectPath": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/hospital.csproj",
-        "packagesPath": "/home/nisarg/.nuget/packages/",
-        "outputPath": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/obj/",
+        "projectPath": "E:\\SEM-5\\WAD\\Online_Medical_Store\\hospital.csproj",
+        "packagesPath": "C:\\Users\\mahek\\.nuget\\packages\\",
+        "outputPath": "E:\\SEM-5\\WAD\\Online_Medical_Store\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/nisarg/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mahek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +46,16 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24474.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24474.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.0-rc.2.24474.1, )"
@@ -73,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/nisarg/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
