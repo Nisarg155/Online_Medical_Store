@@ -5,6 +5,254 @@
       "PackagePath": "staticwebassets/hospital.bundle.scp.css"
     },
     {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/Site.css",
+      "PackagePath": "staticwebassets/Content/Site.css"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/bootstrap-theme.css",
+      "PackagePath": "staticwebassets/Content/bootstrap-theme.css"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets/Content/bootstrap-theme.css.map"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets/Content/bootstrap-theme.min.css"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets/Content/bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/bootstrap.css",
+      "PackagePath": "staticwebassets/Content/bootstrap.css"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/bootstrap.css.map",
+      "PackagePath": "staticwebassets/Content/bootstrap.css.map"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/bootstrap.min.css",
+      "PackagePath": "staticwebassets/Content/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/Content/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/css/bootstrap.css",
+      "PackagePath": "staticwebassets/Content/template/css/bootstrap.css"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/css/cart.css",
+      "PackagePath": "staticwebassets/Content/template/css/cart.css"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/css/mycart.scss",
+      "PackagePath": "staticwebassets/Content/template/css/mycart.scss"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/css/responsive.css",
+      "PackagePath": "staticwebassets/Content/template/css/responsive.css"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/css/style.css",
+      "PackagePath": "staticwebassets/Content/template/css/style.css"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/css/style.css.map",
+      "PackagePath": "staticwebassets/Content/template/css/style.css.map"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/css/style.scss",
+      "PackagePath": "staticwebassets/Content/template/css/style.scss"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/about-medicine.png",
+      "PackagePath": "staticwebassets/Content/template/images/about-medicine.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/client.png",
+      "PackagePath": "staticwebassets/Content/template/images/client.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/contact-bg.jpg",
+      "PackagePath": "staticwebassets/Content/template/images/contact-bg.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/email.png",
+      "PackagePath": "staticwebassets/Content/template/images/email.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/envelope-blue.png",
+      "PackagePath": "staticwebassets/Content/template/images/envelope-blue.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/fb.png",
+      "PackagePath": "staticwebassets/Content/template/images/fb.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/hero-bg.jpg",
+      "PackagePath": "staticwebassets/Content/template/images/hero-bg.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/instagram.png",
+      "PackagePath": "staticwebassets/Content/template/images/instagram.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/left-arrow-blue.png",
+      "PackagePath": "staticwebassets/Content/template/images/left-arrow-blue.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/left-arrow.png",
+      "PackagePath": "staticwebassets/Content/template/images/left-arrow.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/location-blue.png",
+      "PackagePath": "staticwebassets/Content/template/images/location-blue.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/logo.png",
+      "PackagePath": "staticwebassets/Content/template/images/logo.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/m1.jpg",
+      "PackagePath": "staticwebassets/Content/template/images/m1.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/medicine.png",
+      "PackagePath": "staticwebassets/Content/template/images/medicine.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/medicines.jpg",
+      "PackagePath": "staticwebassets/Content/template/images/medicines.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/menu.png",
+      "PackagePath": "staticwebassets/Content/template/images/menu.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/next.png",
+      "PackagePath": "staticwebassets/Content/template/images/next.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/p-1.jpg",
+      "PackagePath": "staticwebassets/Content/template/images/p-1.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/p-2.jpg",
+      "PackagePath": "staticwebassets/Content/template/images/p-2.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/p-3.jpg",
+      "PackagePath": "staticwebassets/Content/template/images/p-3.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/p-4.jpg",
+      "PackagePath": "staticwebassets/Content/template/images/p-4.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/p-5.jpg",
+      "PackagePath": "staticwebassets/Content/template/images/p-5.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/p-6.jpg",
+      "PackagePath": "staticwebassets/Content/template/images/p-6.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/prev.png",
+      "PackagePath": "staticwebassets/Content/template/images/prev.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/quote.png",
+      "PackagePath": "staticwebassets/Content/template/images/quote.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/right-arrow-blue.png",
+      "PackagePath": "staticwebassets/Content/template/images/right-arrow-blue.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/right-arrow.png",
+      "PackagePath": "staticwebassets/Content/template/images/right-arrow.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/search-icon.png",
+      "PackagePath": "staticwebassets/Content/template/images/search-icon.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/telephone-symbol-button.png",
+      "PackagePath": "staticwebassets/Content/template/images/telephone-symbol-button.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/twitter.png",
+      "PackagePath": "staticwebassets/Content/template/images/twitter.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/images/user.png",
+      "PackagePath": "staticwebassets/Content/template/images/user.png"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/js/account.js",
+      "PackagePath": "staticwebassets/Content/template/js/account.js"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/js/bootstrap.js",
+      "PackagePath": "staticwebassets/Content/template/js/bootstrap.js"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/js/cart.js",
+      "PackagePath": "staticwebassets/Content/template/js/cart.js"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/js/jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets/Content/template/js/jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Content/template/js/product.js",
+      "PackagePath": "staticwebassets/Content/template/js/product.js"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Images/288d6b5c-0fa7-48dc-9dd5-80b0b9b2fc4a-med1.jpg",
+      "PackagePath": "staticwebassets/Images/288d6b5c-0fa7-48dc-9dd5-80b0b9b2fc4a-med1.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Images/397c8511-bcf8-451a-b743-0e20bd1298d0-ORS.jpg",
+      "PackagePath": "staticwebassets/Images/397c8511-bcf8-451a-b743-0e20bd1298d0-ORS.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Images/623ad7d6-4dee-4eb1-8366-5089cf8603db-ORS.jpg",
+      "PackagePath": "staticwebassets/Images/623ad7d6-4dee-4eb1-8366-5089cf8603db-ORS.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Images/6f0d1c92-3471-4da8-821d-ba9c0899148d-paracetamol.jpg",
+      "PackagePath": "staticwebassets/Images/6f0d1c92-3471-4da8-821d-ba9c0899148d-paracetamol.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Images/6fe58b47-4718-4819-8317-a76998d3a911-ORS.jpg",
+      "PackagePath": "staticwebassets/Images/6fe58b47-4718-4819-8317-a76998d3a911-ORS.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Images/7962b766-2860-407f-ab56-9429cdf74930-med4.jpg",
+      "PackagePath": "staticwebassets/Images/7962b766-2860-407f-ab56-9429cdf74930-med4.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Images/86a06e43-3114-4274-bdaf-e1cca0b581b8-med3.jpg",
+      "PackagePath": "staticwebassets/Images/86a06e43-3114-4274-bdaf-e1cca0b581b8-med3.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Images/c011488f-54ff-4ea4-8b4e-47a726ec71f9-med4.jpeg",
+      "PackagePath": "staticwebassets/Images/c011488f-54ff-4ea4-8b4e-47a726ec71f9-med4.jpeg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Images/e90e20fd-6dc7-4a6a-966a-f8ec34b8413e-ORS.jpg",
+      "PackagePath": "staticwebassets/Images/e90e20fd-6dc7-4a6a-966a-f8ec34b8413e-ORS.jpg"
+    },
+    {
+      "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/Images/f52a6d68-b065-4cd7-9b70-b5f7ec6180e2-lady7.jpeg",
+      "PackagePath": "staticwebassets/Images/f52a6d68-b065-4cd7-9b70-b5f7ec6180e2-lady7.jpeg"
+    },
+    {
       "Id": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
