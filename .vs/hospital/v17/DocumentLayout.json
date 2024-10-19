@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\SEM-5\\WAD\\Online_Medical_Store\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E288B4B-F98C-45D4-984A-4DAEC64CF3BA}|hospital.csproj|e:\\sem-5\\wad\\online_medical_store\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E288B4B-F98C-45D4-984A-4DAEC64CF3BA}|hospital.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E288B4B-F98C-45D4-984A-4DAEC64CF3BA}|hospital.csproj|e:\\sem-5\\wad\\online_medical_store\\migrations\\20241019054130_online_store_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E288B4B-F98C-45D4-984A-4DAEC64CF3BA}|hospital.csproj|solutionrelative:migrations\\20241019054130_online_store_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E288B4B-F98C-45D4-984A-4DAEC64CF3BA}|hospital.csproj|e:\\sem-5\\wad\\online_medical_store\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E288B4B-F98C-45D4-984A-4DAEC64CF3BA}|hospital.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E288B4B-F98C-45D4-984A-4DAEC64CF3BA}|hospital.csproj|e:\\sem-5\\wad\\online_medical_store\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E288B4B-F98C-45D4-984A-4DAEC64CF3BA}|hospital.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E288B4B-F98C-45D4-984A-4DAEC64CF3BA}|hospital.csproj|e:\\sem-5\\wad\\online_medical_store\\views\\home\\medico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E288B4B-F98C-45D4-984A-4DAEC64CF3BA}|hospital.csproj|solutionrelative:views\\home\\medico.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E288B4B-F98C-45D4-984A-4DAEC64CF3BA}|hospital.csproj|e:\\sem-5\\wad\\online_medical_store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E288B4B-F98C-45D4-984A-4DAEC64CF3BA}|hospital.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241019054130_Online_Store_Database.cs",
+              "DocumentMoniker": "E:\\SEM-5\\WAD\\Online_Medical_Store\\Migrations\\20241019054130_Online_Store_Database.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241019054130_Online_Store_Database.cs",
+              "ToolTip": "E:\\SEM-5\\WAD\\Online_Medical_Store\\Migrations\\20241019054130_Online_Store_Database.cs",
+              "RelativeToolTip": "Migrations\\20241019054130_Online_Store_Database.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwDQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T05:41:31.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\SEM-5\\WAD\\Online_Medical_Store\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\SEM-5\\WAD\\Online_Medical_Store\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAzwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T05:32:35.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\SEM-5\\WAD\\Online_Medical_Store\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\SEM-5\\WAD\\Online_Medical_Store\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-19T04:47:39.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "medico.cshtml",
+              "DocumentMoniker": "E:\\SEM-5\\WAD\\Online_Medical_Store\\Views\\Home\\medico.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\medico.cshtml",
+              "ToolTip": "E:\\SEM-5\\WAD\\Online_Medical_Store\\Views\\Home\\medico.cshtml",
+              "RelativeToolTip": "Views\\Home\\medico.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T04:39:07.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\SEM-5\\WAD\\Online_Medical_Store\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\SEM-5\\WAD\\Online_Medical_Store\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T16:25:54.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\SEM-5\\WAD\\Online_Medical_Store\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\SEM-5\\WAD\\Online_Medical_Store\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T04:46:37.456Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
