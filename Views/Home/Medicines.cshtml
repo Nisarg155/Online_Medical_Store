@@ -1,0 +1,96 @@
+@inject hospital.Models.AppDbContext Db 
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+    <!-- font awesome style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="~/Content/template/css/bootstrap.css" />
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,700&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="~/Content/template/css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="~/Content/template/css/responsive.css" rel="stylesheet" />
+
+    <title>Medion</title>
+    
+</head>
+
+<body class="sub_page">
+    <div class="hero_area">
+        <!-- header section strats -->
+        @Html.Partial("_navbar")
+        <!-- end header section -->
+    </div>
+    <!-- health section -->
+    <section class="health_section layout_padding">
+        <div class="health_carousel-container">
+            <h2 class="text-uppercase">
+                Medicine & Health
+            </h2>
+            <div class="row">
+                @foreach (var medicine in Db.Medicines)
+                {
+                        <div class="col-md-3 col-sm-6">
+
+                            <div class="single-shop-product">
+                                <div class="product-upper">
+                                    <div class="img-box">
+                                        <img src="~/Images/@medicine.ImageUrl3" style="height: 250px; width: 220px;"  alt="Medicine Image"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="text" style="color:blue;font-family:'Franklin Gothic',serif">
+                                        <h3>@medicine.Ename</h3>
+                                        <h6 class="price">
+                                            <span>
+                                                Rs
+                                            </span>
+                                            @medicine.Eprize
+                                        </h6>
+                                    </div>
+
+                                    <div class="product-option-shop">
+
+                                       
+                                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="@Url.Action("addtocart",new { id = medicine.EId})">Add to cart</a>
+                                        <a class="add_to_cart_button" href="@Url.Action("details",new { name = medicine.Ename})">show details</a>
+                                    </div>
+                                </div>
+                    </div>}
+            </div>
+               
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <a href="">
+                    See more
+                </a>
+            </div>
+</section>
+
+    <!-- end health section -->
+
+    <!-- footer section -->
+@Html.Partial("_footer")
+</body>
+
+</html>

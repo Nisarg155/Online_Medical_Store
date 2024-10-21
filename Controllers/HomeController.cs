@@ -20,7 +20,7 @@ public class HomeController : Controller
         return View();
     }
     //-------------
-    public IActionResult medico()
+    public IActionResult Medico()
     {
         return View();
     }
@@ -29,6 +29,14 @@ public class HomeController : Controller
     {
         return View();
     }
+
+    public IActionResult Medicines()
+    {
+        return View();
+    }
+
+
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

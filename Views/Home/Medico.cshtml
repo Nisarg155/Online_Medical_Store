@@ -16,7 +16,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Medical Management</title>
+    <title>Medicomart</title>
 
     <!-- slider stylesheet -->
     <link rel="stylesheet" type="text/css"
@@ -64,9 +64,9 @@
                                 <div class="col-md-8">
                                     <div class="detail-box">
                                         <h1>
-                                            Welcome To Our <br>
+                                            Welcome To <br>
                                             <span>
-                                                Online Medicine
+                                                Medicomart
                                             </span>
 
                                         </h1>
@@ -76,7 +76,7 @@
                                             believable.
                                         </p>
                                         <div>
-                                            <a href="@Url.Action("drug")">
+                                            <a asp-action="Medicines" asp-controller="Home">
                                                 Buy Now
                                             </a>
                                         </div>
@@ -96,9 +96,9 @@
                                 <div class="col-md-8">
                                     <div class="detail-box">
                                         <h1>
-                                            Welcome To Our <br>
+                                            Welcome To  <br>
                                             <span>
-                                                Online Medicine
+                                                Medicomart
                                             </span>
 
                                         </h1>
@@ -108,7 +108,7 @@
                                             believable.
                                         </p>
                                         <div>
-                                            <a href="@Url.Action("drug")">
+                                            <a asp-action="Medicines" asp-controller="Home">
                                                 Buy Now
                                             </a>
                                         </div>
@@ -128,9 +128,9 @@
                                 <div class="col-md-8">
                                     <div class="detail-box">
                                         <h1>
-                                            Welcome To Our <br>
+                                            Welcome To <br>
                                             <span>
-                                                Online Medicine
+                                                Medicomart
                                             </span>
 
                                         </h1>
@@ -161,23 +161,7 @@
 
 
          </section>
-        <!-- Background image section -->
-        <!--<section class="hero_section">
-            <div class="container h-100 d-flex align-items-center">
-                <div class="row">
-                    <div class="col-md-8 offset-md-2">
-                        <div class="detail-box text-center text-white">
-                            <h1>Welcome To Our <br><span>Online Medicine</span></h1>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                            <a href="@Url.Action("drug")" class="btn btn-primary">Buy Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
 
-        <!-- End background image section -->
-        <!-- end slider section -->
     </div>
     <section class="feature_section layout_padding">
         <div class="container">
@@ -185,7 +169,7 @@
                 <!-- First feature box -->
                 <div class="box">
                     <div class="img-box">
-                        <img src="path-to-fast-delivery-icon.svg" alt="Fast Delivery Icon" />
+                        <img src="~/Content/template/svg/fast-delivery-truck-van-svgrepo-com.svg" alt="Fast Delivery Icon" />
                     </div>
                     <div class="detail-box">
                         <h5>Fast Delivery</h5>
@@ -198,7 +182,7 @@
                 <!-- Second feature box -->
                 <div class="box">
                     <div class="img-box">
-                        <img src="path-to-government-license-icon.svg" alt="Government License Icon" />
+                        <img src="~/Content/template/svg/license-svgrepo-com.svg" alt="Government License Icon" />
                     </div>
                     <div class="detail-box">
                         <h5>License of Government</h5>
@@ -211,7 +195,7 @@
                 <!-- Third feature box -->
                 <div class="box">
                     <div class="img-box">
-                        <img src="path-to-third-feature-icon.svg" alt="Third Feature Icon" />
+                        <img src="~/Content/template/svg/help-support-ecommerce-svgrepo-com.svg"  height="50px" alt="Third Feature Icon" />
                     </div>
                     <div class="detail-box">
                         <h5>Third Feature Title</h5>
@@ -255,91 +239,6 @@
             </div>
         </div>
     </section>
-    <section class="info_section layout_padding2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="info_contact">
-                        <h4>
-                            Contact
-                        </h4>
-                        <div class="box">
-                            <div class="img-box">
-                                <img src="images/telephone-symbol-button.png" alt="">
-                            </div>
-                            <div class="detail-box">
-                                <h6>
-                                    +91 9876543210
-                                </h6>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="img-box">
-                                <img src="images/email.png" alt="">
-                            </div>
-                            <div class="detail-box">
-                                <h6>
-                                    ddumedical@gmail.com
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-
-            </div>
-        </div>
-    </section>
-    <section class="container-fluid footer_section">
-        <p>
-            &copy; 2023 All Rights Reserved. Design by DDU Medical
-
-        </p>
-    </section>
-
-    <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
-    </script>
-    <script type="text/javascript">
-        $(".owl-carousel").owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            navText: [],
-            autoplay: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                1000: {
-                    items: 4
-                }
-            }
-        });
-    </script>
-    <script type="text/javascript">
-        $(".owl-2").owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            navText: [],
-            autoplay: true,
-
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                1000: {
-                    items: 4
-                }
-            }
-        });
-    </script>
+    @Html.Partial("_footer")
 </body>

@@ -7,7 +7,7 @@
 	//let PrName = $('#PrDescription').val();
 
 
-	let letter = /^[a-zA-Z]+$/;
+	let letter = /^[a-zA-Z0-9]+$/;
 	let letter2 = /^[0-9.]+$/;
 	//let letter3 = /^[0-9]+$/;
 	$("elo").css("color", "red");
@@ -23,7 +23,7 @@
 		flag = false;
 	}
 
-	else if (Rpa == "") {
+	else if (Rpa === "") {
 		$("#elo").html("please enter Prize");
 		$('#PrPrize').focus();
 		flag = false;
@@ -36,7 +36,7 @@
 		flag = false;
 	}
 
-	else if (myf == "") {
+	else if (myf === "") {
 		$("#elo").html("please enter medicine image");
 		$('#file').focus();
 		flag = false;
