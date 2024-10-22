@@ -55,11 +55,11 @@
                                 <div class="product-upper">
                                     <div class="img-box">
                                         <img src="~/Images/@medicine.ImageUrl3" style="height: 250px; width: 220px;"  alt="Medicine Image"/>
-                                        </div>
                                     </div>
+                                </div>
 
                                     <div class="text" style="color:blue;font-family:'Franklin Gothic',serif">
-                                        <h3>@medicine.Ename</h3>
+                                        <h3>@medicine.Ename </h3>
                                         <h6 class="price">
                                             <span>
                                                 Rs
@@ -72,7 +72,7 @@
 
                                        
                                         <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="@Url.Action("addtocart",new { id = medicine.EId})">Add to cart</a>
-                                        <a class="add_to_cart_button" href="@Url.Action("details",new { name = medicine.Ename})">show details</a>
+                                        <a class="add_to_cart_button" asp-action="Details" asp-route-id="@medicine.EId" asp-controller="Home" >show details</a>
                                     </div>
                                 </div>
                     </div>}

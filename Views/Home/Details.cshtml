@@ -1,0 +1,60 @@
+@model hospital.ViewModel.DetailsViewModel
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    @Html.Partial("_head_tags")
+</head>
+<body class="sub_page">
+<div>
+    @Html.Partial("_navbar")
+</div>
+
+<section class="health_section layout_padding">
+    <div class="health_carousel-container">
+        <h2 class="text-uppercase">
+            Medicine & Health
+        </h2>
+        
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="single-shop-product">
+                        <div class="product-upper">
+                            <div class="img-box">
+                                <img src="~/Images/@Model.Medicine.ImageUrl3" style="height: 250px; width: 220px;"/>
+                            </div>
+                        </div>
+
+                        <div class="text" style="color:blue;font-family:'Franklin Gothic'">
+                            <h3>@Model.Medicine.Ename</h3>
+                            <h6 class="price">
+                                <span>
+                                    Rs
+                                </span>
+                                @Model.Medicine.Eprize
+                            </h6>
+                            <h6>Description : @Model.Medicine.Edetails</h6>
+                            <h6>Details: @Model.Medicine.Edetails</h6>
+                        </div>
+
+                        <div class="product-option-shop">
+                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div >
+
+</section>
+
+@Html.Partial("_footer")
+</body>
+</html>

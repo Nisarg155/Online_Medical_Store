@@ -88,6 +88,8 @@ namespace hospital.Controllers
             _context.SaveChanges();
             return RedirectToAction("dashboard", "Admin");
         }
+
+
         public string UploadFile(imgviewmodel imv)
         {
             string fileName = null;
@@ -130,6 +132,8 @@ namespace hospital.Controllers
                 return View("show");
             }
         }
+
+
         // ---------------------------------
 
         private bool medicineExists(int id)

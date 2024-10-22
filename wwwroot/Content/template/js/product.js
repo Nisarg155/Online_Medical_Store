@@ -7,7 +7,7 @@
 	//let PrName = $('#PrDescription').val();
 
 
-	let letter = /^[a-zA-Z0-9]+$/;
+	let letter = /^[a-zA-Z0-9 -]+$/;
 	let letter2 = /^[0-9.]+$/;
 	//let letter3 = /^[0-9]+$/;
 	$("elo").css("color", "red");

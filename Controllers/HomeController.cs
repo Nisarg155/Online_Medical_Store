@@ -1,6 +1,8 @@
 using System.Diagnostics;
+using System.Dynamic;
 using Microsoft.AspNetCore.Mvc;
 using hospital.Models;
+using hospital.ViewModel;
 
 namespace hospital.Controllers;
 
@@ -13,6 +15,23 @@ public class HomeController : Controller
     {
         _logger = logger;
         _context = context;
+    }
+
+    public IActionResult Details(int id)
+    {
+
+        var med = _context.Medicines.Where(medicine => medicine.EId == id).FirstOrDefault();
+        if (med == null)
+        {
+            Console.WriteLine("Medicine not found.");
+            return NotFound(); // Return 404 or handle the error gracefully.
+        }
+
+        DetailsViewModel detailsViewModel = new DetailsViewModel
+        {
+            Medicine = med,
+        };
+        return View(detailsViewModel);
     }
 
     public IActionResult Index()
