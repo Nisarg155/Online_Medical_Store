@@ -1,8 +1,10 @@
 using System.Diagnostics;
 using System.Dynamic;
+using hospital.Areas.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using hospital.Models;
 using hospital.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 
 namespace hospital.Controllers;
 
@@ -16,6 +18,69 @@ public class HomeController : Controller
         _logger = logger;
         _context = context;
     }
+
+    public IActionResult AddtoCart(int id)
+    {
+        string email = User.Identity?.Name;
+        if (email != null)
+        {
+            medicine med = _context.Medicines.Where(medicine =>  medicine.EId == id).FirstOrDefault();
+            cart c = new cart();
+            c.Cemail = email;
+            c.name = med.Ename;
+            c.price = Convert.ToInt32(med.Eprize);
+            c.image = med.ImageUrl3;
+            c.bill = c.price;
+            c.qty = 1;
+
+            _context.Carts.Add(c);
+            _context.SaveChanges();
+
+        }
+        else
+        {
+            TempData["error"] = "You are not logged in!";
+        }
+
+        return RedirectToAction("Cart");
+
+    }
+
+    [Authorize]
+    public IActionResult Cart()
+    {
+        string email = User.Identity?.Name;
+
+        var list = _context.Carts.Where(medicine => medicine.Cemail == email);
+        return View(list);
+
+    }
+
+    [HttpPost]
+    public ActionResult Quantity_Change(int id,int quantity)
+    {
+        Console.WriteLine(id);
+        Console.WriteLine(quantity);
+
+        var item = _context.Carts.Find(id);
+
+        if (item != null)
+        {
+            item.qty = quantity;
+            _context.SaveChanges();
+        }
+        return RedirectToAction("Cart");
+    }
+
+
+    public ActionResult Delete(int id)
+    {
+        var item  = _context.Carts.Find(id);
+        _context.Carts.Remove(item);
+        _context.SaveChanges();
+        return RedirectToAction("Cart");
+    }
+
 
     public IActionResult Details(int id)
     {
