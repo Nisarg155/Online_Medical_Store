@@ -80,7 +80,7 @@ namespace hospital.Controllers
                 Eprize = imv.Eprize,
                 ImageUrl3 = stringFileName,
                 Eavailability = imv.Eavailability,
-                Edescription = "This is for humans",
+                Edescription = imv.Edescription,
                 Edetails = "This is best medicine for health"
 
             };

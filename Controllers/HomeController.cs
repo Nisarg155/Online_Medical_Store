@@ -18,7 +18,8 @@ public class HomeController : Controller
         _logger = logger;
         _context = context;
     }
-
+    [HttpPost]
+    [HttpGet]
     public IActionResult AddtoCart(int id)
     {
         string email = User.Identity?.Name;
@@ -46,16 +47,26 @@ public class HomeController : Controller
 
     }
 
+    [HttpGet]
+    [HttpPost]
     [Authorize]
     public IActionResult Cart()
     {
         string email = User.Identity?.Name;
 
-        var list = _context.Carts.Where(medicine => medicine.Cemail == email);
-        return View(list);
+        // Get the list of items in the cart for the logged-in user
+        var list = _context.Carts.Where(medicine => medicine.Cemail == email).ToList();
 
+        // Calculate the total bill for the cart items
+        var total = list.Sum(item => item.bill);
+
+        // Use ViewBag to pass the total to the view
+        ViewBag.Total = total;
+
+        return View(list);
     }
 
+    [ValidateAntiForgeryToken]
     [HttpPost]
     public ActionResult Quantity_Change(int id,int quantity)
     {
@@ -67,12 +78,13 @@ public class HomeController : Controller
         if (item != null)
         {
             item.qty = quantity;
+            item.bill = item.price * item.qty; // Recalculate the bill
             _context.SaveChanges();
         }
         return RedirectToAction("Cart");
     }
 
-
+  
     public ActionResult Delete(int id)
     {
         var item  = _context.Carts.Find(id);

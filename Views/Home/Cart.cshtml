@@ -7,145 +7,104 @@
 
 <head>
     @Html.Partial("_head_tags")
-    <link href="~/Content/template/css/cart.css" rel="stylesheet"/>
+    <link href="~/Content/template/css/cart.css" rel="stylesheet" />
     <script type="text/javascript" src="~/Content/template/js/cart.js"></script>
 </head>
 
 <body class="sub_page">
-<div class="hero_area">
-    <!-- header section strats -->
-    @Html.Partial("_navbar")
-
-    <!-- end header section -->
-</div>
-<main>
-    <div class="basket">
-
-        <div class="basket-labels">
-            <ul>
-                <li class="item item-heading">Item</li>
-                <li class="price">Price</li>
-                <li class="quantity">Quantity</li>
-                <li class="subtotal">Subtotal</li>
-
-            </ul>
-        </div>
-        <div class="basket-product">
-            @{
-                int? total = 0;
-            }
-
-            @foreach (var med in Model)
-            {
-                <div class="item" data-item-id="@med.Cid">
-                    <div class="product-image">
-                        <img src="~/Images/@med.image" alt="Placholder Image 2" class="product-frame">
-                    </div>
-                    <div class="product_name">
-
-                        <p>
-                            <strong>@med.name</strong>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="price" id="price-@med.Cid">@med.price</div>
-                <div class="quantity">
-                    <input type="number" value="@med.qty" min="1" id="qnt-@med.Cid"    class="quantity-field">
-                </div>
-                <div class="subtotal" id="subtotal-@med.Cid">@med.bill</div>
-
-                <div class="remove">
-                    <a class="remove" asp-action="Delete" asp-route-id="@med.Cid" asp-controller="Home">Remove</a>
-                </div>
-                    total = total + Convert.ToInt32(@med.bill);
-            }
-        </div>
-
+    <div>
+        @Html.Partial("_navbar")
     </div>
-    <aside>
-        <div class="summary">
-            <div class="summary-total-items"><span class="total-items"></span> Items in your Bag</div>
-            <div class="summary-subtotal">
-                <div class="subtotal-title">Subtotal</div>
-                <div class="subtotal-value final-value" id="basket-subtotal">@total</div>
-                <div class="summary-promo hide">
-                    <div class="promo-title">Promotion</div>
-                    <div class="promo-value final-value" id="basket-promo"></div>
+
+    <main>
+        <div class="basket">
+
+            <div class="basket-labels">
+                <ul>
+                    <li class="item item-heading">Item</li>
+                    <li class="price">Price</li>
+                    <li class="quantity">Quantity</li>
+                    <li class="subtotal">Subtotal</li>
+
+                </ul>
+            </div>
+            <div class="basket-product">
+                @{
+                    int? total = 0;
+                }
+
+                @foreach (var med in Model)
+                {
+                    <div class="item" data-item-id="@med.Cid">
+                        <div class="product-image">
+                            <img src="~/Images/@med.image" alt="Placholder Image 2" class="product-frame">
+                        </div>
+                        <div class="product_name">
+
+                            <p>
+                                <strong>@med.name</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="price" id="price-@med.Cid">@med.price</div>
+                   @* <div class="quantity">
+                        <input type="number" value="@med.qty" min="1" id="qnt-@med.Cid" class="quantity-field">
+                </div>*@
+                    <div class="quantity">
+                        <form asp-action="Quantity_Change" method="post">
+                            <input type="hidden" name="id" value="@med.Cid" />
+                            <input type="number" name="quantity" value="@med.qty" min="1" class="quantity-field" onchange="this.form.submit();">
+                        </form>
+                    </div>
+                    <div class="subtotal" id="subtotal-@med.Cid">@med.bill</div>
+
+                    <div class="remove">
+                        <a class="remove" asp-action="Delete" asp-route-id="@med.Cid" asp-controller="Home">Remove</a>
+                    </div>
+                    total = total + Convert.ToInt32(@med.bill);
+                }
+            </div>
+
+        </div>
+        <aside>
+            <div class="summary">
+                <div class="summary-total-items"><span class="total-items"></span> Items in your Bag</div>
+                <div class="summary-subtotal">
+                    <div class="subtotal-title">Subtotal</div>
+                    <div class="subtotal-value final-value" id="basket-subtotal">@ViewBag.Total</div>
+                    <div class="summary-promo hide">
+                        <div class="promo-title">Promotion</div>
+                        <div class="promo-value final-value" id="basket-promo"></div>
+                    </div>
+                </div>
+
+                <div class="summary-total">
+                    <div class="total-title">Total</div>
+                    <div class="total-value final-value" id="basket-total">@ViewBag.Total</div>
+                </div>
+                <div class="summary-checkout">
+                    @*<button class="checkout-cta">Go to Secure Checkout</button>*@
+                    @{
+                        string url = "https://WWW.sandbox.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=" + (@total) + "&business=JanjuaTailors@Shop.com&item_name=medcine&return=Page";
+                    }
+                    @if (@total == 0)
+                    {
+                        <h5 style="color:dodgerblue">Opps, Your cart is empty !!</h5>
+                    }
+                    else
+                    {
+                        <a href="@url" class="aa-cart-view-btn">Go to Secure Checkout</a>
+                    }
+
                 </div>
             </div>
+        </aside>
+    </main>
+    <!-- ... (your existing HTML code) ... -->
 
-            <div class="summary-total">
-                <div class="total-title">Total</div>
-                <div class="total-value final-value" id="basket-total">@total</div>
-            </div>
-            <div class="summary-checkout">
-                @*<button class="checkout-cta">Go to Secure Checkout</button>*@
-                @{
-                    string url = "https://WWW.sandbox.paypal.com/cgi-bin/webscr?cmd=_xclick&amount=" + (@total) + "&business=JanjuaTailors@Shop.com&item_name=medcine&return=Page";
-                }
-                @if (@total == 0)
-                {
-                    <h5 style="color:dodgerblue">Opps, Your cart is empty !!</h5>
-                }
-                else
-                {
-                    <a href="@url" class="aa-cart-view-btn">Go to Secure Checkout</a>
-                }
-
-            </div>
-        </div>
-    </aside>
-</main>
-<!-- ... (your existing HTML code) ... -->
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-        $(document).ready(function () {
-            // Function to update subtotal for a specific item
-            function updateItemSubtotal(itemId) {
-            console.log(itemId)
-                var quantity = parseFloat($('#qnt-' + itemId).val()); // Get the value of the quantity input field
-                var price = parseFloat($('#price-' + itemId).text()); // Ensure price is parsed as a float
-
-                if (isNaN(quantity) || isNaN(price)) {
-                    return 0; // Handle any NaN values gracefully
-                }
-
-                var subtotal = quantity * price; // Calculate subtotal
-                $('#subtotal-' + itemId).text(subtotal.toFixed(2)); // Update the subtotal text
-
-                return subtotal;
-            }
-
-
-
-            // Function to update total amount
-            function updateTotalAmount() {
-                var newTotal = 0;
-                $('.basket-product .item').each(function () {
-                    var itemId = $(this).attr('data-item-id'); // Get item ID
-                    var subtotal = updateItemSubtotal(itemId); // Update subtotal for each item
-                    newTotal += subtotal;
-                });
-                $('#basket-subtotal, #basket-total').text(newTotal.toFixed(2)); // Update total amount
-            }
-
-            // Attach event listener to quantity fields
-            $('.quantity-field').on('input', function () {
-                var itemId = $(this).closest('.item').attr('data-item-id');
-                var newQuantity = $(this).val();
-                updateItemSubtotal(itemId);
-                updateTotalAmount();
-            });
-
-            // Initial total calculation on page load
-            updateTotalAmount();
-        });
-
-    </script>
-
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
 </body>
 
 </html>

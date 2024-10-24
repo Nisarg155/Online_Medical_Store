@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lfMAh0mt4L4TIUtr3q8mDHq2p2L2IY+pg4+pQGgikRQ=",
+  "Hash": "4eeWKoe9TilfBIURPVVjXJRwoVfVPxtj96k5XEjWT2k=",
   "Source": "hospital",
   "BasePath": "_content/hospital",
   "Mode": "Default",
@@ -4900,6 +4900,25 @@
       "OriginalItemSpec": "wwwroot\\Images\\397c8511-bcf8-451a-b743-0e20bd1298d0-ORS.jpg"
     },
     {
+      "Identity": "E:\\SEM-5\\WAD\\Online_Medical_Store\\wwwroot\\Images\\3daabfe6-7907-4d2f-87c5-f5f98f88ceb9-397c8511-bcf8-451a-b743-0e20bd1298d0-ORS.jpg",
+      "SourceId": "hospital",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\SEM-5\\WAD\\Online_Medical_Store\\wwwroot\\",
+      "BasePath": "_content/hospital",
+      "RelativePath": "Images/3daabfe6-7907-4d2f-87c5-f5f98f88ceb9-397c8511-bcf8-451a-b743-0e20bd1298d0-ORS.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\3daabfe6-7907-4d2f-87c5-f5f98f88ceb9-397c8511-bcf8-451a-b743-0e20bd1298d0-ORS.jpg"
+    },
+    {
       "Identity": "E:\\SEM-5\\WAD\\Online_Medical_Store\\wwwroot\\Images\\623ad7d6-4dee-4eb1-8366-5089cf8603db-ORS.jpg",
       "SourceId": "hospital",
       "SourceType": "Discovered",
@@ -5069,6 +5088,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\d8c9c65a-6885-4244-838f-0b529a81a235-6f0d1c92-3471-4da8-821d-ba9c0899148d-paracetamol.jpg"
+    },
+    {
+      "Identity": "E:\\SEM-5\\WAD\\Online_Medical_Store\\wwwroot\\Images\\dcac3125-3d3d-4284-9834-01a7c39144cb-6f0d1c92-3471-4da8-821d-ba9c0899148d-paracetamol.jpg",
+      "SourceId": "hospital",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\SEM-5\\WAD\\Online_Medical_Store\\wwwroot\\",
+      "BasePath": "_content/hospital",
+      "RelativePath": "Images/dcac3125-3d3d-4284-9834-01a7c39144cb-6f0d1c92-3471-4da8-821d-ba9c0899148d-paracetamol.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\dcac3125-3d3d-4284-9834-01a7c39144cb-6f0d1c92-3471-4da8-821d-ba9c0899148d-paracetamol.jpg"
     },
     {
       "Identity": "E:\\SEM-5\\WAD\\Online_Medical_Store\\wwwroot\\Images\\e90e20fd-6dc7-4a6a-966a-f8ec34b8413e-ORS.jpg",

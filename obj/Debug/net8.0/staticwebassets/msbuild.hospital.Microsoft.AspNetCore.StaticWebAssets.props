@@ -3136,6 +3136,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\397c8511-bcf8-451a-b743-0e20bd1298d0-ORS.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\3daabfe6-7907-4d2f-87c5-f5f98f88ceb9-397c8511-bcf8-451a-b743-0e20bd1298d0-ORS.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>hospital</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/hospital</BasePath>
+      <RelativePath>Images/3daabfe6-7907-4d2f-87c5-f5f98f88ceb9-397c8511-bcf8-451a-b743-0e20bd1298d0-ORS.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\3daabfe6-7907-4d2f-87c5-f5f98f88ceb9-397c8511-bcf8-451a-b743-0e20bd1298d0-ORS.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\623ad7d6-4dee-4eb1-8366-5089cf8603db-ORS.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>hospital</SourceId>
@@ -3279,6 +3295,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\d8c9c65a-6885-4244-838f-0b529a81a235-6f0d1c92-3471-4da8-821d-ba9c0899148d-paracetamol.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\dcac3125-3d3d-4284-9834-01a7c39144cb-6f0d1c92-3471-4da8-821d-ba9c0899148d-paracetamol.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>hospital</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/hospital</BasePath>
+      <RelativePath>Images/dcac3125-3d3d-4284-9834-01a7c39144cb-6f0d1c92-3471-4da8-821d-ba9c0899148d-paracetamol.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\dcac3125-3d3d-4284-9834-01a7c39144cb-6f0d1c92-3471-4da8-821d-ba9c0899148d-paracetamol.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\e90e20fd-6dc7-4a6a-966a-f8ec34b8413e-ORS.jpg))">
       <SourceType>Package</SourceType>
