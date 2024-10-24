@@ -48,6 +48,7 @@
                                                     <th>Image</th>
                                                     <th>Name</th>
                                                     <th>Price</th>
+                                                    <th>Available Quantity</th>
                                                     <th>Update</th>
                                                 </tr>
                                             </thead>
@@ -65,7 +66,9 @@
                                                         <td>
                                                             @Html.DisplayFor(modelItem => item.Eprize)
                                                         </td>
-
+                                                        <td>
+                                                            @Html.DisplayFor(modelItem => item.Eavailability) <!-- Display available quantity -->
+                                                        </td>
                                                         <td>
                                                             @Html.ActionLink("Edit", "editmedicine", new { id = item.EId })|
                                                             @Html.ActionLink("Delete", "Deletemedicine", new { id = item.EId })

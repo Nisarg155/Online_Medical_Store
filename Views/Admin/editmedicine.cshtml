@@ -46,7 +46,7 @@
 
                                     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
-                                    <form asp-action="editme    dicine">
+                                    <form asp-action="editmedicine">
                                         @* <div asp-validation-summary="ModelOnly" class="text-danger"></div>*@
                                         <input type="hidden" asp-for="EId" />
                                         <div class="form-group">
@@ -59,7 +59,11 @@
                                             <input type="text" asp-for="Eprize" class="form-control" />
 
                                         </div>
-
+                                        <!-- Update Quantity -->
+                                        <div class="form-group">
+                                            <label for="Eavailability">Available Quantity</label>
+                                            <input type="number" asp-for="Eavailability" class="form-control" placeholder="Enter Available Quantity" />
+                                        </div>
 
                                         <button type="submit" class="btn btn-primary me-2">Save</button>
                                         <button class="btn btn-light">Cancel</button>

@@ -56,7 +56,7 @@ namespace hospital.Controllers
             var itemEdit = _context.Medicines.Where(x => x.EId == edit.EId).FirstOrDefault();
             itemEdit.Eprize = edit.Eprize;
             itemEdit.Ename = edit.Ename;
-
+            itemEdit.Eavailability = edit.Eavailability;
             _context.Entry(itemEdit).State = EntityState.Modified;
             _context.SaveChanges();
             return RedirectToAction("showmedicine");
@@ -79,7 +79,7 @@ namespace hospital.Controllers
                 Ename = imv.Ename,
                 Eprize = imv.Eprize,
                 ImageUrl3 = stringFileName,
-                Eavailability = "1",
+                Eavailability = imv.Eavailability,
                 Edescription = "This is for humans",
                 Edetails = "This is best medicine for health"
 

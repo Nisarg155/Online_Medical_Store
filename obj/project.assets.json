@@ -687,11 +687,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Identity.UI/8.0.0": {
+      "Microsoft.AspNetCore.Identity.UI/8.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Embedded": "8.0.0",
-          "Microsoft.Extensions.Identity.Stores": "8.0.0"
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.10",
+          "Microsoft.Extensions.Identity.Stores": "8.0.10"
         },
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.Identity.UI.dll": {
@@ -1669,7 +1669,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Embedded/8.0.0": {
+      "Microsoft.Extensions.FileProviders.Embedded/8.0.10": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0"
@@ -3798,10 +3798,10 @@
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Identity.UI/8.0.0": {
-      "sha512": "pDr/LtMS23DdDtRdXrQOFZoEUV96SvM2xrW1eWRqbtv+N+tzU1TUoXorEgjDuAA+aijjaFCEOLldd+l38wdmVg==",
+    "Microsoft.AspNetCore.Identity.UI/8.0.10": {
+      "sha512": "+KvPMIQa2IvtdSgiV/4FzvlNj4kYN+e/A6yrwmeQHQMeHTCpw+l9B6lvmDaE7pQzgnYTxzcst5LtaDtLX8AqFQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.identity.ui/8.0.0",
+      "path": "microsoft.aspnetcore.identity.ui/8.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3816,7 +3816,7 @@
         "buildTransitive/Microsoft.AspNetCore.Identity.UI.targets",
         "lib/net8.0/Microsoft.AspNetCore.Identity.UI.dll",
         "lib/net8.0/Microsoft.AspNetCore.Identity.UI.xml",
-        "microsoft.aspnetcore.identity.ui.8.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.identity.ui.8.0.10.nupkg.sha512",
         "microsoft.aspnetcore.identity.ui.nuspec",
         "staticwebassets/V4/css/site.css",
         "staticwebassets/V4/favicon.ico",
@@ -5655,10 +5655,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Embedded/8.0.0": {
-      "sha512": "TuRh62KcoOvaSDCbtHT8K0WYptZysYQHPRRNfOgqF7ZUtUL4O0WMV8RdxbtDFJDsg3jv9bgHwXbrgwTeI9+5uQ==",
+    "Microsoft.Extensions.FileProviders.Embedded/8.0.10": {
+      "sha512": "N/Ow71LLKXbC4fOFoAG7QNyyhgRypd8in8lc92xInZyyNFlBTgGR3R1BV91Wr5+1/l9+Qvo+2Ee2cAth43OP/Q==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.embedded/8.0.0",
+      "path": "microsoft.extensions.fileproviders.embedded/8.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5673,7 +5673,7 @@
         "lib/net8.0/Microsoft.Extensions.FileProviders.Embedded.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.xml",
-        "microsoft.extensions.fileproviders.embedded.8.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.embedded.8.0.10.nupkg.sha512",
         "microsoft.extensions.fileproviders.embedded.nuspec",
         "tasks/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll"
       ]
@@ -8167,7 +8167,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.10",
-      "Microsoft.AspNetCore.Identity.UI >= 8.0.0",
+      "Microsoft.AspNetCore.Identity.UI >= 8.0.10",
       "Microsoft.EntityFrameworkCore >= 9.0.0-rc.2.24474.1",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0-rc.2.24474.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0-rc.2.24474.1",
@@ -8176,24 +8176,27 @@
     ]
   },
   "packageFolders": {
-    "/home/nisarg/.nuget/packages/": {}
+    "C:\\Users\\mahek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/hospital.csproj",
+      "projectUniqueName": "E:\\SEM-5\\WAD\\Online_Medical_Store\\hospital.csproj",
       "projectName": "hospital",
-      "projectPath": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/hospital.csproj",
-      "packagesPath": "/home/nisarg/.nuget/packages/",
-      "outputPath": "/home/nisarg/Documents/Collage stuff/sem5/WAD/hospital/obj/",
+      "projectPath": "E:\\SEM-5\\WAD\\Online_Medical_Store\\hospital.csproj",
+      "packagesPath": "C:\\Users\\mahek\\.nuget\\packages\\",
+      "outputPath": "E:\\SEM-5\\WAD\\Online_Medical_Store\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/nisarg/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mahek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8223,7 +8226,7 @@
           },
           "Microsoft.AspNetCore.Identity.UI": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[8.0.10, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -8269,7 +8272,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/nisarg/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
